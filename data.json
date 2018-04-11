@@ -1,0 +1,234 @@
+[
+{
+    "model": "website.band",
+    "pk": 1,
+    "fields": {
+        "name": "The Chemical Brothers",
+        "foundation_year": 1989,
+        "foundation_city": "Manchester"
+    }
+},
+{
+    "model": "website.band",
+    "pk": 2,
+    "fields": {
+        "name": "Fatboy Slim",
+        "foundation_year": 1996,
+        "foundation_city": "Bromley"
+    }
+},
+{
+    "model": "website.album",
+    "pk": 1,
+    "fields": {
+        "name": "Born in the Echoes",
+        "release_year": 2015,
+        "band": 1
+    }
+},
+{
+    "model": "website.album",
+    "pk": 2,
+    "fields": {
+        "name": "Further",
+        "release_year": 2010,
+        "band": 1
+    }
+},
+{
+    "model": "website.album",
+    "pk": 3,
+    "fields": {
+        "name": "We Are the Night",
+        "release_year": 2007,
+        "band": 1
+    }
+},
+{
+    "model": "website.album",
+    "pk": 4,
+    "fields": {
+        "name": "Palookaville",
+        "release_year": 2004,
+        "band": 2
+    }
+},
+{
+    "model": "website.album",
+    "pk": 5,
+    "fields": {
+        "name": "Halfway Between the Gutter and the Stars",
+        "release_year": 2000,
+        "band": 2
+    }
+},
+{
+    "model": "website.album",
+    "pk": 6,
+    "fields": {
+        "name": "You've Come a Long Way, Baby",
+        "release_year": 1998,
+        "band": 2
+    }
+},
+{
+    "model": "website.track",
+    "pk": 1,
+    "fields": {
+        "name": "Sometimes I Feel So Deserted",
+        "album": 1,
+        "is_single": false,
+        "band": 1
+    }
+},
+{
+    "model": "website.track",
+    "pk": 2,
+    "fields": {
+        "name": "Go",
+        "album": 1,
+        "is_single": false,
+        "band": 1
+    }
+},
+{
+    "model": "website.track",
+    "pk": 3,
+    "fields": {
+        "name": "Snow",
+        "album": 2,
+        "is_single": false,
+        "band": 1
+    }
+},
+{
+    "model": "website.track",
+    "pk": 4,
+    "fields": {
+        "name": "Escape Velocity",
+        "album": 2,
+        "is_single": false,
+        "band": 1
+    }
+},
+{
+    "model": "website.track",
+    "pk": 5,
+    "fields": {
+        "name": "No Path to Follow",
+        "album": 3,
+        "is_single": false,
+        "band": 1
+    }
+},
+{
+    "model": "website.track",
+    "pk": 6,
+    "fields": {
+        "name": "We Are the Night",
+        "album": 3,
+        "is_single": false,
+        "band": 1
+    }
+},
+{
+    "model": "website.track",
+    "pk": 7,
+    "fields": {
+        "name": "Don't Let the Man Get You Down",
+        "album": 4,
+        "is_single": false,
+        "band": 2
+    }
+},
+{
+    "model": "website.track",
+    "pk": 8,
+    "fields": {
+        "name": "Slash Dot Dash",
+        "album": 4,
+        "is_single": false,
+        "band": 2
+    }
+},
+{
+    "model": "website.track",
+    "pk": 9,
+    "fields": {
+        "name": "Talking Bout My Baby",
+        "album": 5,
+        "is_single": false,
+        "band": 2
+    }
+},
+{
+    "model": "website.track",
+    "pk": 10,
+    "fields": {
+        "name": "Star 69",
+        "album": 5,
+        "is_single": false,
+        "band": 2
+    }
+},
+{
+    "model": "website.track",
+    "pk": 11,
+    "fields": {
+        "name": "Right Here, Right Now",
+        "album": 6,
+        "is_single": false,
+        "band": 2
+    }
+},
+{
+    "model": "website.track",
+    "pk": 12,
+    "fields": {
+        "name": "The Rockafeller Skank",
+        "album": 6,
+        "is_single": false,
+        "band": 2
+    }
+},
+{
+    "model": "website.track",
+    "pk": 13,
+    "fields": {
+        "name": "Song for Shelter / Ya Mama",
+        "album": null,
+        "is_single": true,
+        "band": 2
+    }
+},
+{
+    "model": "website.track",
+    "pk": 14,
+    "fields": {
+        "name": "Wonderful Night",
+        "album": null,
+        "is_single": true,
+        "band": 2
+    }
+},
+{
+    "model": "website.track",
+    "pk": 15,
+    "fields": {
+        "name": "Leave Home",
+        "album": null,
+        "is_single": true,
+        "band": 1
+    }
+},
+{
+    "model": "website.track",
+    "pk": 16,
+    "fields": {
+        "name": "Star Guitar",
+        "album": null,
+        "is_single": true,
+        "band": 1
+    }
+}
+]
